@@ -1,0 +1,110 @@
+/* 共通 */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+.en {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ja {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #a3a3a3;
+
+}
+
+header h1 {
+  max-width: 250px;
+  font-size: 4rem;
+  white-space: nowrap;
+}
+
+
+header .parent-name{
+  white-space: nowrap;
+}
+
+
+/* 子ども名前 */
+.child-name{
+  font-size: 2rem;
+  text-align: right;
+  padding: 5px 0;
+}
+
+
+/* お知らせ */
+.news{
+  text-align: left;
+  margin-bottom: 20px;
+}
+.news h2{ 
+  font-size: 2.7rem;
+  font-weight: normal;
+  text-align: left;
+}
+.news p{ 
+  font-size: 2rem;
+  padding: 5%;
+  background: #FAF8D5;
+  border: 1px solid #8A8F8C;
+  border-radius: 15px;
+}
+
+
+/* アプリボタン */
+.btn-container {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-container button {
+  padding: 20px;
+  width: 100%;
+}
+
+.btn-icon {
+  width: 87px;
+  height: 87px;
+}
+
+
+button .en {
+  font-size: 2.4rem;
+}
+
+button .ja {
+  font-size: 1.8rem;
+}
