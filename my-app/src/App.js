@@ -30,22 +30,22 @@ function App() {
           {/* isAuthログインしているときのみ表示部分 */}
           {isAuth ? (
             <>
-              <Route path="/" element={<Home />} />
-              <Route path="/attendance" element={<Attendance />} />
-              <Route path="/attendance-report" element={<AttendanceReport />} />
-              <Route path="/school" element={<School />} />
-              <Route path="/chat" element={<Chat />} />
-              <Route path="/chat/:memberId" element={<ChatArea />} />
-              <Route path="/setting" element={<Setting />} />
-              <Route path="/calender" element={<Calender />} />
-              <Route path="/class" element={<Class />} />
-              <Route path="/account" element={<Account />} />
-              <Route path="/userlist" element={<UserList />} />
-              <Route path="/accountadd" element={<AccountAdd />} />
-              <Route path="/logout" element={<Logout setIsAuth={setIsAuth} />} />
+              <Route path="/School-Navi/" element={<Home />} />
+              <Route path="/School-Navi/attendance" element={<Attendance />} />
+              <Route path="/School-Navi/attendance-report" element={<AttendanceReport />} />
+              <Route path="/School-Navi/school" element={<School />} />
+              <Route path="/School-Navi/chat" element={<Chat />} />
+              <Route path="/School-Navi/chat/:memberId" element={<ChatArea />} />
+              <Route path="/School-Navi/setting" element={<Setting />} />
+              <Route path="/School-Navi/calender" element={<Calender />} />
+              <Route path="/School-Navi/class" element={<Class />} />
+              <Route path="/School-Navi/account" element={<Account />} />
+              <Route path="/School-Navi/userlist" element={<UserList />} />
+              <Route path="/School-Navi/accountadd" element={<AccountAdd />} />
+              <Route path="/School-Navi/logout" element={<Logout setIsAuth={setIsAuth} />} />
             </>
           ) : (
-            <Route path="/userlogin" element={<UserLogin setIsAuth={setIsAuth} />} />
+            <Route path="/School-Navi/userlogin" element={<UserLogin setIsAuth={setIsAuth} />} />
           )}
         </Routes>
     </div>
