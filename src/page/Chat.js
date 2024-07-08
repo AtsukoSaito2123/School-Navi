@@ -165,7 +165,7 @@ const Chat = () => {
                     <ul>
                         {members.map(member => (
                             <li key={member.id}>
-                                <Link className="message-wrapper" to={`/chat/${member.chatRoomId}`}>
+                                <Link className="message-wrapper" to={`/School-Navi/chat/${member.chatRoomId}`}>
                                     <div className="user-icon">
                                         <p className='sender'>{member.username}</p>
                                         <p className='latest-message'>{member.latestMessage}</p>
