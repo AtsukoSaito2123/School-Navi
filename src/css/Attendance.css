@@ -1,0 +1,72 @@
+.DaySelect .react-datepicker-wrapper {
+  display: block;
+  text-align: left;
+  padding: 10px;
+  font-size: 2.3rem;
+  font-family: "Itim", cursive;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.RadioBtn-list {
+  display: flex;
+  font-size: 2rem;
+}
+
+.RadioBtn-list li {
+  margin-right: 10px;
+}
+
+.ReasonTextarea textarea {
+  width: 100%;
+  height: 220px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+  font-size: 1.8rem;
+}
+
+.AttendanceReportBtn {
+  display: inline-block;
+  background: #373860;
+  color: #fff;
+  padding: 15px 80px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.Report h3 {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.ReportList li {
+  line-height: 40px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: left;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+
+.ReportList .list-inner {
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  background: #373860;
+  color: #fff;
+  padding: 15px 80px;
+  font-size: 2rem;
+  width: 100%;
+  border-radius: 5px;
+}
