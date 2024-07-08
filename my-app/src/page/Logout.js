@@ -20,7 +20,7 @@ const Logout = ({ setIsAuth }) => {
         setIsAuth(false);
 
         // /loginページにリダイレクト
-        navigate('/login');
+        navigate('/School-Navi/login');
       })
       .catch(error => {
         console.error("Logout Error: ", error);
