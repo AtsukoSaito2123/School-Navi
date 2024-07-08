@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Button = ({ color, text, text2, image, onClick }) => {
+    
     return (
         <li>
             <button style={{ backgroundColor: color }} onClick={onClick}>
@@ -15,7 +16,5 @@ const Button = ({ color, text, text2, image, onClick }) => {
         </li>
     );
 };
-
-
 
 export default Button;
