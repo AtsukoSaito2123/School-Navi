@@ -7,12 +7,12 @@ const Home = () => {
     const navigate = useNavigate(); 
     // const roomId = 'example-room-id'; // 動的に生成または取得したルームIDを使用
     const buttonsData = [
-        { color: '#C0D87B', text: 'Attendance', text2: '出席確認', image: require('../img/attendance.png'), path: '/attendance' },
-        { color: '#B696C6', text: 'School', text2: '全校共通', image: require('../img/school.png'), path: '/school' },
-        { color: '#EC8A8A', text: 'Chat', text2: '連絡帳', image: require('../img/chat.png'), path: `/chat` },
-        { color: '#DFC361', text: 'Class', text2: 'クラスだより', image: require('../img/class.png'), path: '/class' },
-        { color: '#61DFA2', text: 'Calender', text2: 'イベント', image: require('../img/calender.png'), path: '/calender' },
-        { color: '#61A2DF', text: 'Setting', text2: '設定', image: require('../img/grade.png'), path: '/setting' },
+        { color: '#C0D87B', text: 'Attendance', text2: '出席確認', image: require('../img/attendance.png'), path: '/School-Navi//attendance' },
+        { color: '#B696C6', text: 'School', text2: '全校共通', image: require('../img/school.png'), path: '/School-Navi//school' },
+        { color: '#EC8A8A', text: 'Chat', text2: '連絡帳', image: require('../img/chat.png'), path: `/School-Navi//chat` },
+        { color: '#DFC361', text: 'Class', text2: 'クラスだより', image: require('../img/class.png'), path: '/School-Navi//class' },
+        { color: '#61DFA2', text: 'Calender', text2: 'イベント', image: require('../img/calender.png'), path: '/School-Navi//calender' },
+        { color: '#61A2DF', text: 'Setting', text2: '設定', image: require('../img/grade.png'), path: '/School-Navi//setting' },
         // 他のボタンデータもここに追加
     ];
 
