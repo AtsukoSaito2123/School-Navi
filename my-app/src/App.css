@@ -19,6 +19,10 @@ a {
   white-space: nowrap;
 }
 
+button {
+  color: #000;
+}
+
 .App {
   text-align: center;
   max-width: 800px;
@@ -261,6 +265,7 @@ button .ja {
 }
 
 .event-form {
+  width: 100%;
   font-size: 2rem;
   padding-top: 30px;
 }
@@ -273,8 +278,22 @@ button .ja {
   /* border: 1px solid red; */
   margin-left: 30px;
   background: #cfcfcf;
-  padding: 5px;
   border-radius: 5px;
+  padding: 5px;
+}
+
+.event-list{
+  font-size: 2rem;
+  text-align: left;
+}
+.event-list li{
+margin-bottom: 2px;
+}
+.event-list button{
+  padding: 5px;
+  margin: 0 2px;
+  border-radius: 5px;
+  background: #cfcfcf;
 }
 
 /* チャット */
@@ -288,7 +307,6 @@ button .ja {
   justify-content: space-between;
   background: #c4c3c3;
   margin: 10px 0;
-
 }
 
 .member-list input {
@@ -301,7 +319,7 @@ button .ja {
   padding: 20px 20px;
 }
 .AccountAdd input::placeholder {
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .member-list button {
@@ -315,7 +333,6 @@ font-size: 1.5rem;
   text-align: right;
   padding: 3%;
 }
-
 
 .member-list h2 {
   text-align: left;
@@ -358,13 +375,13 @@ font-size: 1.5rem;
   text-align: right;
 }
 
-.member-list .latest-message{
+.member-list .latest-message {
   word-wrap: break-word;
   white-space: pre-wrap;
   margin-right: 10px;
 }
 
-.message-wrapper{
+.message-wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -387,7 +404,7 @@ font-size: 1.5rem;
 }
 
 /* 出欠確認 */
-.AttendanceReport h2{
+.AttendanceReport h2 {
   text-align: left;
 }
 
@@ -415,20 +432,31 @@ font-size: 1.5rem;
     height: 70px;
   }
 
-  .message-wrapper{
+  .message-wrapper {
     flex-direction: column;
   }
 
-  .member-list .latest-message{
+  .member-list .latest-message {
     width: 100%;
     margin: 0;
   }
   .member-list button,
-.AccountAdd button {
-font-size: 1.5rem;
-}
+  .AccountAdd button {
+    font-size: 1.5rem;
+  }
 
-}
+  .event-form button {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .event-form input {
+    font-size: 1.5rem;
+  }
+
+  .event-form {
+    padding-top: 0;
+  }
+} 
 
 @media (max-width: 370px) {
   .parent-name {
