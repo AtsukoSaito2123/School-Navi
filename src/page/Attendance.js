@@ -75,7 +75,7 @@ const Attendance = () => {
     <div className='sub-page'>
       <SubPageTitle title={pageTitle} backgroundColor="#C0D87B" />
       <div className='wrapper'>
-        <Link className='AttendanceReportBtn' to="/attendance-report">
+        <Link className='AttendanceReportBtn' to="/School-Navi/attendance-report">
           出欠連絡をする
         </Link>
         <section className='Report'>

@@ -76,13 +76,13 @@ const Setting = () => {
           {/* isAdminがtrueである場合にのみ権限管理設定ボタンが表示されて管理画面をいじれるようになる */}
           {isAdmin && (
             <li>
-              <Link to="/userlist">
+              <Link to="/School-Navi/userlist">
                 権限管理設定
               </Link>
             </li>
           )}
           <li>
-            <Link to="/accountadd">
+            <Link to="/School-Navi/accountadd">
               兄弟追加設定
             </Link>
           </li>
