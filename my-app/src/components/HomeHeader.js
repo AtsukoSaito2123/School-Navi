@@ -10,18 +10,18 @@ const HomeHeader = ({ isAuth }) => {
         <header>
             <div className='wrapper'>
                 <h1>
-                    <Link to="/">
+                    <Link to="/School-Navi/">
                         School & Navi
                     </Link>
                 </h1>
                 <nav>
                     {!isAuth ? (
-                        <Link to="/userlogin">
+                        <Link to="/School-Navi/userlogin">
                             <FontAwesomeIcon icon={faRightToBracket} />
                             ログイン
                         </Link>
                     ) : (
-                        <Link to="/logout">
+                        <Link to="/School-Navi/logout">
                             <FontAwesomeIcon icon={faRightToBracket} />
                             ログアウト
                         </Link>
