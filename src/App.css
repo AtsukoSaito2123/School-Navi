@@ -24,12 +24,14 @@ a {
   max-width: 800px;
   margin: 0 auto;
   padding-bottom: 30px;
+  color: #000;
 }
 
 .en {
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #000;
 }
 
 .ja {
