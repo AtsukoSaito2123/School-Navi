@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/School-Navi/static/css/main.cb4ffe1b.css",
+    "main.js": "/School-Navi/static/js/main.5e59c776.js",
+    "index.html": "/School-Navi/index.html",
+    "main.cb4ffe1b.css.map": "/School-Navi/static/css/main.cb4ffe1b.css.map",
+    "main.5e59c776.js.map": "/School-Navi/static/js/main.5e59c776.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb4ffe1b.css",
+    "static/js/main.5e59c776.js"
+  ]
+}
